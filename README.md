@@ -412,7 +412,7 @@ end
 
 `love.keypressed` is a callback which is called when a key is pressed. It has an argument which is the key that was pressed.
 
-Save this sound file into your project folder: [sound.ogg](sound.ogg)
+Save this sound file into your project folder: [sound.ogg](res/sound.ogg)
 
 In the following code, the sound plays when a key is pressed.
 
