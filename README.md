@@ -63,7 +63,7 @@ function love.draw()
     love.graphics.print("Hello World!", 400, 300)
 end
 ```
-![](text.png)
+![](res/text.png)
 
 Run the project with LÖVE again, and you will see text in the window.
 
@@ -90,7 +90,7 @@ function love.draw()
 end
 ```
 
-![](textcolor.png)
+![](res/textcolor.png)
 
 `love.graphics.setColor` is another function. Its arguments are the red, green and blue components of a color, between 0 and 1.
 
@@ -109,7 +109,7 @@ function love.draw()
 end
 ```
 
-![](textcolorchange.png)
+![](res/textcolorchange.png)
 
 Functions which set state often start with "`set`", and are often accompanied by functions which get state, which often start with "`get`".
 
@@ -123,13 +123,13 @@ function love.draw()
 end
 ```
 
-![](getcolor.png)
+![](res/getcolor.png)
 
 Save this .png file into your project folder.
 
 (The images used are from LÖVE 0.8.0's no-game screen.)
 
-![](pig.png)
+![](res/pig.png)
 
 Replace the code in *main.lua* with this:
 
@@ -165,7 +165,7 @@ function love.draw()
 end
 ```
 
-![](imagecolor.png)
+![](res/imagecolor.png)
 
 `love.graphics.newImage` can take a little bit longer than most functions because it loads an image from the hard drive, so to increase performance images can be loaded once and then used repeatedly in `love.draw`.
 
@@ -201,7 +201,7 @@ function love.draw()
 end
 ```
 
-![](getwidth.png)
+![](res/getwidth.png)
 
 Objects can have functions which relate to that particular object, called *methods*. `getWidth` and `getHeight` are Image methods which return the width and height of that particular Image.
 
@@ -219,7 +219,7 @@ function love.draw()
 end
 ```
 
-![](rotate.png)
+![](res/rotate.png)
 
 The next argument is the scaling factor, which changes the size of the drawn image.
 
@@ -233,7 +233,7 @@ function love.draw()
 end
 ```
 
-![](scale.png)
+![](res/scale.png)
 
 Whether the image looks smoothed or pixelated when scaled can be changed by the `setFilter` Image function.
 
@@ -255,7 +255,7 @@ function love.draw()
 end
 ```
 
-![](filter.png)
+![](res/filter.png)
 
 This introduces *object state*. Like the color state, the Image's filter has set/get methods.
 
@@ -275,7 +275,7 @@ function love.draw()
 end
 ```
 
-![](seconds.png)
+![](res/seconds.png)
 
 This introduces the callback `love.update`.
 
@@ -303,7 +303,7 @@ function love.draw()
 end
 ```
 
-![](moving.png)
+![](res/moving.png)
 
 The code above draws an image at an X position which increases by 100 pixels per second.
 
@@ -375,7 +375,7 @@ There are also callbacks for input. The following code moves the heart above the
 
 Save this .png file into your project folder.
 
-![](heart.png)
+![](res/heart.png)
 
 ```lua
 function love.load()
@@ -408,7 +408,7 @@ function love.keypressed(key)
 end
 ```
 
-![](heartmoved.png)
+![](res/heartmoved.png)
 
 `love.keypressed` is a callback which is called when a key is pressed. It has an argument which is the key that was pressed.
 
@@ -480,7 +480,7 @@ function love.keypressed(key)
 end
 ```
 
-![](heartcount)
+![](res/heartcount)
 
 When the game is closed and restarted the number goes back to 0.
 
@@ -552,7 +552,7 @@ function love.conf(t)
 end
 `
 
-![](window.png)
+![](res/window.png)
 
 The window is now a square, window icon is a heart and the window title is "My Game".
 
