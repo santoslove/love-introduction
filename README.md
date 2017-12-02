@@ -543,14 +543,14 @@ Both the save directory and the project folder can be read from. When a file pat
 
 Create a new file in the project folder named *conf.lua* containing the following code:
 
-`
+```lua
 function love.conf(t)
     t.window.width = 600
     t.window.height = 600
     t.window.icon = 'heart.png'
-	t.window.title = 'My Game'
+    t.window.title = 'My Game'
 end
-`
+```
 
 ![](res/window.png)
 
