@@ -556,11 +556,11 @@ end
 
 The window is now a square, window icon is a heart and the window title is "My Game".
 
-This introduces *conf.lua* and *love.conf*.
+This introduces *conf.lua* and `love.conf`.
 
 If it exists, *conf.lua* is run before *main.lua*. These two files are the only files LÖVE runs by default.
 
-*love.conf* is a callback which only works when made in *conf.lua*.
+`love.conf` is a callback which only works when made in *conf.lua*.
 
 It is given a table as an argument which has keys for different settings which can be changed.
 
