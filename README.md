@@ -1,6 +1,6 @@
 # Introduction to LÖVE
 
-This tutorial is just a draft and isn't very good or complete and you probably shouldn't follow it in its current state. It's needlessly Windows-centric, assumes command-line knowledge, and targets LÖVE 0.11.0 which isn't released and this tutorial will probably be inaccurate when it is released. It might also be misnaming some LÖVE concepts and have lots of other mistakes and inaccuracies.
+This tutorial is just a draft and isn't very good or complete and you probably shouldn't follow it in its current state. It's needlessly Windows-centric and assumes command-line knowledge. It might also be misnaming some LÖVE concepts and have lots of other mistakes and inaccuracies. Everything I've written is public domain, so if someone in the future wants to tidy it up or take bits from it, please do.
 
 It's designed to be an introduction to LÖVE and the basic concepts of the LÖVE API in a tutorial format, for someone who has some programming experience but might not have used an API like LÖVE's before. The goal of the tutorial is that after reading it, the reader will be able to make more sense of the API information in the wiki.
 
